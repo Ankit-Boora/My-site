@@ -360,7 +360,7 @@ body	{
 			.container	{
 				position: relative;
 			}
-			span	{
+			span.ramk	{
 				position: absolute;
 				top: 5px;
 				left: 8px;
@@ -392,4 +392,67 @@ body	{
 				box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
 				width: 270px;
 			}
-			
+			/*.container {
+				position: relative;
+				width: 300px;
+				height: 300px;
+				background: chartreuse;
+			}
+			.absolute	{
+				position: absolute;
+				bottom: 10px;
+				right: 10px;
+				width: 50px;
+				height: 50px;
+				background: chocolate;
+			}*/
+			.class1	{
+				position: relative;
+			}
+			.p1		{
+				position: absolute;
+				top: 5px;
+				left: 8px;
+			}
+			.p2		{
+				position: absolute;
+				top: 5px;
+				right: 8px;
+			}
+			.p3		{
+				position: absolute;
+				top: 40%;
+				left: 50%;
+				transform: translate(-60%, -50%);
+				font-size: 16px;
+			}
+			.p4		{
+				position: absolute;
+				bottom: 5px;
+				left: 8px;
+			}
+			.p5		{
+				position: absolute;
+				bottom: 5px;
+				right: 8px;
+			}
+			.img1	{
+				width: 20%;
+				height: auto;
+				opacity: 0.5;
+			}
+			/*
+			.body1	{
+				padding: 0px;
+				margin: 0px;
+				font-family: sans-serif;
+			}
+			#1div	{
+				position: sticky;
+				top: 0px;
+				left: 0px;
+				width: 100%;
+				color: white;
+				padding: 5px;
+				font-size: 18px;
+			}*/
