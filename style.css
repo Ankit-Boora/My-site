@@ -1,0 +1,395 @@
+/* This is how CSS code comment. */
+/* For Element we use {direct element name} */
+/* For id we use {# tag} */
+/* For class we use {. (dot)}*/
+
+body	{
+	background-color:#9A9796;
+		}
+		/* For horizontal line. */
+			hr {
+				width: 100%;
+				border: 3px solid black ;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			
+			/* For paragraph CSS */
+			
+			#p12		{
+					letter-spacing: 1px;
+					line-height: normal;					
+			}
+			/* This CSS for Left to write and write to left code. */
+			#demo1    {
+						white-space: normal;
+						background: lightgrey;
+						border: 2px solid red;
+			}
+			#ltr {
+					direction: ltr;
+			}
+			
+			#rtl {
+						direction: rtl;
+			}
+				/* This is main paragraph code. */
+			p  { 
+						text-shadow: #173459 ;
+						color: black;
+						font-size: 20px;
+						
+			}
+			#no	{
+				margin-bottom: 10px;
+				margin-top: 20px;
+				
+			}
+			/* This is class CSS code. */
+			
+			.color-code {
+				background-color:yellow;
+				text-decoration: underline;
+				font-weight: bold;
+			}
+			/* This is heading 1 CSS */
+			h1 {
+					font-family: Arial;
+			}
+			/* This is id CSS code. */
+			
+			#sample {border: 2px solid black;
+			}
+			
+			/* For logo photo. */
+			
+			.abc {border: 2px solid black;
+			}
+			
+			/* For main Title. */
+			
+			.title{background-color: yellow;
+					border: 2px solid black;
+					padding: 5px;
+					border-spacing: 10px;
+			}
+			
+			/* This is all for hyper links css code. */
+			
+			a 		{ 
+				text-decoration: none;
+				color: red;
+			}
+			a:link	{
+					color: black;
+			}	
+			a:visited	{
+						background: blue;
+			}
+			a:hover	{
+				border: red;
+			}
+				/* There is an error how to add hover, visited, active style with css. */
+				
+			/* -----------------------------------------------------------------------*/
+			
+			label {border: 5px inset #0077dd;
+					border-radius: 20px; 
+					background: red;
+					color:white;
+					padding-left: 20px;
+					padding-right: 20px;
+					margin-right: 5px;
+					
+			}
+			/* End */
+			
+			
+			input {border: 2px solid black;
+					padding: 5px;
+					
+			}
+			
+			#yellow {
+				background-color: yellow;
+				font-size: 30px;
+				border: 2px solid black;
+			
+			}
+			
+			p#white {
+				color: white;
+					
+			}
+			
+			p.yellow {
+				color: yellow;
+				background-color: black;
+				text-decoration: underline;
+				
+			}
+			/* For Table decoration. */
+			
+			table, th, td {
+				border: 3px solid black;
+				padding: 5px;
+				border-color: black;
+				color: solid black;
+				border-collapse: collapse;
+			}
+			
+			td {
+				padding: 5px;
+			}
+					
+			#ul-circle {
+				list-style-type: circle;
+			}
+			#ul-square {
+				list-style-type: square;
+			}
+			#ol-upper-roman {
+				list-style-type: upper-roman;
+			}
+			#ul-lower-alpha {
+				list-style-type: lower-alpha;
+			}
+			#ol-no-list-style-type {
+				list-style-type:none;
+			}
+			#ul-no-list-style-type {
+				list-style-type:none;
+			
+			}
+			
+			ul {
+				list-style:none;
+			}
+			
+			/* How to use # before any list. */
+			
+			#demo01::before {
+				content: "#";
+				color: yellow;
+				background-color: black;
+			}
+			
+			dt {
+				font-weight: bold;
+				text-decoration: underline;
+			}
+			dd {
+				font-style: italic;
+			}
+			/* I want to know "Outline, resize, border etc. elements how it works. */
+			
+			textarea {
+				background-color: #f3f4f5;
+				color: #g2g4d3;
+				border: solid black 5px;
+				outline: red 5px;
+				resize: none;
+			}
+			#ul11	{
+				list-style-type: upper-roman;
+				color: yellow;
+				background: black;
+				padding-right: none;
+			}
+			#div01	{
+				float: left;
+				width:33%;
+				clear: right;
+			}
+			#div02	{
+				float: left;
+				width:33%;
+			}
+			#div03	{
+				float: left;
+				width:33%;
+			}
+			
+			#div08	{
+				float: left;
+				width:20%;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			
+			#div04	{
+				float: left;
+				width:20%;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+			
+			#div05	{
+				float: left;
+				width:20%;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			
+			#div06	{
+				float: left;
+				width:20%;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			
+			#div07	{
+				float: left;
+				width:20%;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			span	{
+				font-size: 25px;
+			}
+			#footerspan	{
+				font-size: 25px;
+			}
+			#div002	{
+				float: left;
+				width: 33.3%;
+				height: 40%;
+				margin-top: 10px;
+				margin-bottom: 30px;
+			}
+			#div003	{
+				float: right;
+				width: 33.3%;
+				height: 40%
+			}
+			#div001	{
+				float: left;
+				width: 33.3%;
+				height: 40%;
+			}
+			#div004	{
+				float: left;
+				width: 15%;
+				height: 40%;
+			}
+			#div005	{
+				float: left;
+				width: 15%;
+				height: 40%;
+			}
+			#div006	{
+				float: left;
+				width: 40%;
+				height: 40%;
+			}
+			#div007	{
+				float: left;
+				width: 30%;
+				height: 40%;
+				padding-bottom: 30px;
+			}
+			#div008	{
+				float: left;
+				width: 15%;
+				height: 40%;
+				padding-bottom: 20px;
+			}
+			#div009	{
+				float: left;
+				width: 15%;
+				height: 40%;
+				padding-bottom: 20px;
+			}
+			#div010	{
+				float: left;
+				width: 35%;
+				height: 40%;
+				padding-bottom: 20px;
+			}
+			#div011	{
+				/*margin: 0 auto;*/
+				float: left;
+				/*margin: 2px;*/
+				width: 35%;
+				height: 100px;
+				background: none;
+				padding-bottom: 20px;
+			}
+			/* button.disabled for disable buttons. Also if need buttons group then use (.button-group button {) and then use float. and for vartical use display: block; */
+			button	{
+				font-family: sans-serif;
+				border: none;
+				padding: 13px 16px; 
+				font-size: 15px;
+				outline: 
+				margin: 10px;
+				-webkit-transition-duration: 70ms;
+				transition-duration: 70ms;
+			}
+			#mybutton	{
+				background-color: gold;
+				color: green;
+				box-shadow: 1px 1px 2px 3px #000000;
+			}
+			#mybutton:hover	{
+				background-color: green;
+				color:gold;
+				border: solid #093c56;
+				box-shadow: 1px 1px 2px 3px #000000;
+				cursor: pointer;
+			}
+			#group-button	{
+				display: block;
+				
+			}
+			#trail	{
+				border-radius: 10px;
+				border: 5px solid white;
+				padding: 5px;
+				width: 600px;
+				height: auto;/*	
+				margin-left: auto;
+				margin-right: auto;
+				display: block;*/
+				float: right;
+				opacity: 1;   /* 0 to 1 for image opacity. */
+				
+				
+			}
+			/* make image transparent with opacity then add it in container position relative and span position absolute. */
+			.container	{
+				position: relative;
+			}
+			span	{
+				position: absolute;
+				top: 5px;
+				left: 8px;
+			}
+			#leftwritting	{
+				width: 100%;
+				height: auto;
+				opacity: 0.4;
+			}
+			/* hover image with description. */
+			.card	{
+				box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+				width: 280px;
+				box-sizing: border-box;
+				transition-duration: 70ms;
+			}
+			.card > img#new1010	{
+				display: block;
+				max-width: 100%;
+				height: auto;
+				margin: 0px;
+			}
+			.card > p#new	{
+				font-family: sans-serif;
+				padding: 0px 10px 10px 10px;
+				text-align: center;
+			}
+			.card:hover	{
+				box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+				width: 270px;
+			}
+			
