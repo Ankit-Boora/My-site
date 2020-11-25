@@ -4,7 +4,7 @@
 /* For class we use {. (dot)}*/
 
 body	{
-	background-color:#9A9796;
+	background-color: rgb(131, 131, 131);
 		}
 		/* For horizontal line. */
 			hr {
@@ -38,11 +38,13 @@ body	{
 						text-shadow: #173459 ;
 						color: black;
 						font-size: 20px;
+						font-family: "sansita swashed",cursive;
 						
 			}
 			#no	{
 				margin-bottom: 10px;
 				margin-top: 20px;
+				font-family: "sansita swashed", cursive;
 				
 			}
 			/* This is class CSS code. */
@@ -81,14 +83,18 @@ body	{
 				color: red;
 			}
 			a:link	{
-					color: black;
+				color: black;
 			}	
 			a:visited	{
-						background: blue;
+				color: blue;
+			}
+			a:active	{
+				color: pink;
 			}
 			a:hover	{
-				border: red;
+				color: red;
 			}
+			
 				/* There is an error how to add hover, visited, active style with css. */
 				
 			/* -----------------------------------------------------------------------*/
@@ -136,6 +142,7 @@ body	{
 				border-color: black;
 				color: solid black;
 				border-collapse: collapse;
+				font-family: sansita swashed;
 			}
 			
 			td {
@@ -246,6 +253,7 @@ body	{
 			}
 			span	{
 				font-size: 25px;
+				font-family: sansita swashed;
 			}
 			#footerspan	{
 				font-size: 25px;
@@ -435,6 +443,7 @@ body	{
 				position: absolute;
 				bottom: 5px;
 				right: 8px;
+				font-family: sansita swashed;
 			}
 			.img1	{
 				width: 20%;
@@ -456,3 +465,208 @@ body	{
 				padding: 5px;
 				font-size: 18px;
 			}*/
+			div span.red	{
+				color: red;
+			}
+			li#T + li	{
+				color: red;
+			}
+			li#Tw ~ li	{
+				color: red;
+			}
+			p.hover:hover	{
+				color: rgb(255, 0, 0);
+				font-size: 21px;
+			}
+			p.hover	{
+				transition-duration: 1s;
+			}
+			.ba::after	{
+				content: "-> True";
+				color: greenyellow;
+			}
+			.ab::before	{
+				content: "-> False";
+				color: red;
+			}
+			li::before	{
+				content: "~";
+				color: blue;
+			}
+			.ba::first-letter	{
+				color: red;
+			}
+			.ba1::first-line	{
+				color: greenyellow;
+			}
+			.ba11::selection, textarea::selection	{
+				color: black;
+				background-color: yellow;
+			}
+			a[title="Anki"]	{
+					color: red;
+			}
+			a[title~="Ankit"]	{
+				color: red;
+			}
+			/* This CSS code is change the color of all the text on webpage. But I am disable it because I don't need this at this time.
+			html[lang|="en"]	{
+				color:greenyellow;
+			}*/
+			h1	{
+				font-family: sansita swashed;
+			}
+			.area51	{
+				float: left;
+				width: 200px;
+				height: 200px;
+				background: red;
+				transition-property: width;
+				transition-duration: 1s;
+				transition-delay: .20s;
+			}
+			
+			div.area51:hover	{
+				width: 400px;
+			}
+			.area52	{
+				float: right;
+				width: 200px;
+				height: 200px;
+				background: red;
+				transition-timing-function: linear;
+				transition-property: width, height, background;
+				transition-duration: .20s;
+			}
+			
+			div.area52:hover	{
+				width: 400px;
+				height: 400px;
+				background: greenyellow;
+			}
+			/*#div002	{
+				float: left;
+				width: 33.3%;
+				height: 40%;
+				margin-top: 10px;
+				margin-bottom: 30px;
+			}*/
+			@keyframes animation1	{
+				0% { 
+					background-color: purple;
+					top: 0px;
+					left: 0px;
+				}
+				25%	{
+				background-color: greenyellow;
+				top: 200px;
+				left: 200px;
+				}
+				50%	{
+					background-color: purple;
+					top: 0px;
+					left: 200px;
+				}
+				75%	{
+					background-color: greenyellow;
+					top: 200px;
+					left: 0px;
+				}
+				100%	{
+					background-color: purple;
+					top: 0px;
+					left: 0px;
+				}
+			}
+			.area53	{
+				animation-name: animation1;
+				animation-duration: 10s;
+				animation-iteration-count: infinite;
+				position: static;
+				width: 500px;
+				height: 100px;
+				background-color: red;
+			}
+			@keyframes anki2	{
+				from	{
+					background-color: red;
+					left: 0px;
+				}
+				to		{
+					background-color: green;
+					left: 400px;
+				}
+			}
+			.area54	{
+				animation-name: anki2;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+				animation-direction: alternate-reverse; /* normal, reverse, alternate */
+				position: relative;
+				width: 100px;
+				height: 100px;
+				/* Also you can define all this css in one line { animation: anki2 2s infinite linear reverse } all this in one line. */
+			}
+			.area55	{
+				column-count: 3;
+				border: 3px solid black;
+				padding-left: 5px;
+				padding-bottom: 5px;
+				column-rule: groove 3px black; /* Also I am use this in one line { column-rule: groove 3px black; } */
+			}
+			h3	{
+				column-span: all;
+				text-align: center;
+			}
+			.area56	{
+				resize: horizontal;
+				overflow: auto;
+			}
+			.area57	{
+				resize: vertical;
+				overflow: auto;
+			}
+			.area58	{
+				resize: both;
+				overflow: auto;
+			}
+			div.area56	{
+				padding: 50px;
+				border: 2px solid white;
+			}
+			div.area57	{
+				padding: 50px;
+				border: 2px solid white;
+			}
+			div.area58	{
+				padding: 50px;
+				border: 2px solid white;
+			} /*This style is not working.  I made this CSS for CSS3 resize property. [Now working with overflow property]*/
+			#notresize	{
+				resize: none;
+			}
+			/* This code is really good for make columns responsive. */
+			.area60	{
+				display: flex;
+				
+				/* Also we can use flex-grow: for item setting;
+				/*align-content: stretch; flex-start; flex-end; center; space-between; space-around; space-evenly;
+				/*align-items: center flex-end flex-start stretch baseline;
+				/*justify-content: space-evenly; space-around; space-between; center; flex-end; flex-start;
+				/* flex-direction: row-reverse; { row; column-reverse; column} all these use for change direction of columns. 
+				Also {flex-wrap: nowrap; wrap; wrap-reverse;} all these properties are used for wrapping boxes.
+				Also you can use {flex-flow: row-reverse wrap;} and other properties on the place of {flex-wrap and flex-direction}
+				 */ 
+				background: blue;
+				padding: 10px;
+			}
+			.area60 > div#flax1	{
+				background: yellow;
+				width: 33.3%;
+				height: 300px;
+				margin: 10px;
+				padding-left: 10px;
+				border-radius: 10px;
+			}
+			
